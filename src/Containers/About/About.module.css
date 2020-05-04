@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap');
+
+.About {
+    background-color: rgba(0,0,0,0.5);
+    height: 100vh;
+}
+
+.Content {
+    text-align: center;
+    color: gainsboro;
+    background-color: rgba(0,0,0, 0.5);
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 400;
+    width: 1000px;
+    margin: auto;
+    height: 290px;
+    position: relative;
+    top: 20%;
+    transform: translateX(-1200px);
+    animation: ex 0.75s ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes ex {
+    from {transform: translateX(-1200px)}
+    to {transform: translateX(0px)}
+}
+
+.Content h1 {
+    padding: 0;
+    margin: 20px 0 0 40px;
+    position: absolute;
+}
+.Content h1 span {
+    color: #b3eda5;
+}
+.Row {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    position: relative;
+    top: 80px;
+
+}
+.Row .Image {
+    width: 125px;
+    height: 125px;
+    margin: 10px 0 0 0;
+}
+
+.Row img {
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    border: 1px solid #b3eda5;
+}
+
+.Bio {
+    width: 68%;
+    text-align: justify;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.Bio h3 {
+    color: #b3eda5;
+    margin: 0;
+    padding: 0;
+}
+

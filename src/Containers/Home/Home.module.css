@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap');
+
+/*lightgreen: #d8ffbc*/
+
+.Home {
+    /*background-image: url('../../assets/images/forest4.jpg');
+    background-position-x: -50px;
+    background-position-y: -15px;
+    background-size: 105% 105%;*/
+    height: 100vh;
+    text-align: center;
+    z-index: -1;
+    box-sizing: border-box;
+    color: gainsboro;
+    /*text-shadow: 1px 1px 1px black;*/
+    font-family: 'Exo 2', sans-serif;
+    animation: fade-in 0.5s ease-in;
+}
+@keyframes fadein {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+.Home h1 {
+    padding: 5% 0 0 0;
+    margin: 0;
+    font-size: 40px;
+    color: #b3eda5;
+    text-shadow: 1px 1px 1px black;
+
+}
+
+.Home h4 {
+    padding: 0;
+    margin: 5px 0 0 0;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    z-index: 100;
+}
+
+.ProjectDiv {
+    padding-top: 40px;
+    color: gainsboro;
+}
+
+.ProjectDiv h4 {
+    margin-bottom: 10px;
+}
+
+.ProjectDiv button {
+    color: gainsboro;
+    background-color: transparent;
+    border: 1px solid gainsboro;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 700;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.ProjectDiv div {
+    color: gainsboro;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+
+.ProjectDiv button:hover {
+    color: #b3eda5;
+    border-color: #b3eda5;
+    /*background-color: rgba(0,0,0,0.5);*/
+    transform: scale(1.1);
+}

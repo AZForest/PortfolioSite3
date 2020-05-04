@@ -1,0 +1,6 @@
+.Projects {
+    display: flex;
+    justify-content: center;
+    color: gainsboro;
+    font-weight: 700;
+}

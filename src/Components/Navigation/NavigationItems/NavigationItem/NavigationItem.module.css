@@ -1,0 +1,20 @@
+/*lightgreen: #d8ffbc | #e9ffdf*/
+
+.NavigationItem {
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    height: 40px;
+}
+.NavigationItem a {
+    padding: 12px 18px;
+    text-decoration: none;
+    color: #b3eda5;
+}
+.NavigationItem a:hover,
+.NavigationItem a:active,
+.NavigationItem a.active {
+    background-color: gainsboro;
+        /*border-bottom: 1px solid #b3eda5;*/
+        color: black;
+}

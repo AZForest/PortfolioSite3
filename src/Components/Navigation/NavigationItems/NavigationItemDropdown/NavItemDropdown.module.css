@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap');
+
+.NavItemDropdown button {
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+    color: #b3eda5;
+    cursor: pointer;
+    font-size: 12px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 700;
+    padding: 10px 16px;
+    margin: 0;
+    height: 100%;
+}
+
+.NavItemDropdown button:hover {
+    background-color: gainsboro;
+    color: black;
+    border: none;
+}
+

@@ -1,0 +1,53 @@
+.Project {
+    height: 300px;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 10px 12.5px;
+    padding: 10px 0;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start !important;
+}
+
+.Project:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #b3eda5;
+}
+
+.Project img {
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    opacity: 0.7;
+}
+
+.Project h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.Project p {
+    margin: 0;
+    padding: 10px 12px;
+}
+
+.Project .bar {
+    width: 20%;
+    height: 1px;
+    background-color: gainsboro;
+    margin: 10px auto;
+}
+
+.Project ul {
+    list-style: none;
+    padding: 0;
+    width: 60%;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.Project ul li {
+    padding: 5px;
+}

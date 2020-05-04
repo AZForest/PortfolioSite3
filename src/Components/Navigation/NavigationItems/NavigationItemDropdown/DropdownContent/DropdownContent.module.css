@@ -1,0 +1,23 @@
+.DropdownContent {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding: 0;
+    margin: 0px 0 0 0;
+    color: #b3eda5;
+    position: absolute;
+    z-index: 1000;
+    
+}
+
+.DropdownContent a {
+    padding: 10px 5px;
+    text-decoration: none;
+    color: gainsboro;
+}
+
+.DropdownContent a:hover {
+    color: black;
+    background-color: gainsboro;
+    
+}

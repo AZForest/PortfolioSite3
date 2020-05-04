@@ -1,0 +1,28 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap');
+
+/*tan: #fff2da*/
+/*dark brown: #1a1202*/
+
+.Navbar {
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    color: #b3eda5;
+    border-bottom: 1px solid gainsboro;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 700;
+}
+
+.Navbar p {
+    margin: 10px 0 0 20px;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 700;
+}

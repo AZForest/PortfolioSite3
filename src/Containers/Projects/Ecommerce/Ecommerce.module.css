@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap');
+
+.Main {
+    background-color: rgba(0,0,0,0.5);
+    height: 100vh;
+    font-family: 'Exo 2', sans-serif;
+    z-index: 1;
+}
+
+.Main h1 {
+    text-align: center;
+    color: gainsboro;
+    margin: 20px auto;
+    position: relative;
+    top: 60px;
+    padding: 10px;
+    text-shadow: 1px 1px 15px black;
+    opacity: 0;
+    animation: fadein 1s ease;
+    animation-fill-mode: forwards;
+    width: 40%;
+}
+
+.Content {
+    background-color: rgba(0,0,0,0.5);
+    /*height: 530px;*/
+    display: block;
+    overflow: auto;
+    width: 900px;
+    margin: 60px auto 0 auto;
+    text-align: center;
+    color: gainsboro;
+    opacity: 0;
+    animation: fadein 1s ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadein {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+.TopRow {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    font-weight: 700;
+}
+
+.TopRow img {
+    margin-right: 25px;
+    width: 350px;
+    height: 200px;
+    opacity: 0.9;
+    border: 2px solid gainsboro;
+    box-shadow: 0 0 15px #b3eda5;
+}
+
+.TopRow div {
+    margin-left: 25px;
+}
+.TopRow div div {
+    width: 80%;
+    height: 1px;
+    background-color: #b3eda5;
+    margin: auto;
+}
+.TopRow div ul {
+    list-style: none;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0;
+}
+.TopRow div ul li {
+    padding: 10px;
+}
+.Bar {
+    width: 10%;
+    height: 1px;
+    background-color: #b3eda5;
+    margin: 30px auto 20px auto;
+}
+
+.Content p {
+    padding: 0 40px;
+}
+
+.Content button, .Content a {
+    padding: 10px 15px;
+    background-color: transparent;
+    border: 1px solid #b3eda5;
+    color: #b3eda5;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px 5px 25px 5px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.Content button:hover, .Content a:hover {
+    background-color: white;
+    color: black;
+    border-color: white;
+    transform: scale(1.1);
+}

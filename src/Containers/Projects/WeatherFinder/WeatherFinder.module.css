@@ -1,0 +1,18 @@
+.WeatherFinder {
+    background-color: rgba(0,0,0,0.5);
+    height: 100vh;
+}
+
+.WeatherFinder h1 {
+    text-align: center;
+    color: gainsboro;
+    padding-top: 10px;
+}
+
+.Content {
+    background-color: rgba(220,220,220,0.5);
+    height: 70%;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
