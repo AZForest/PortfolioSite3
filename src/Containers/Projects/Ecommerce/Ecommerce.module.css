@@ -51,7 +51,7 @@
     margin-right: 25px;
     width: 350px;
     height: 200px;
-    opacity: 0.9;
+    opacity: 0.8;
     border: 2px solid gainsboro;
     box-shadow: 0 0 15px #b3eda5;
 }
@@ -106,4 +106,16 @@
     color: black;
     border-color: white;
     transform: scale(1.1);
+}
+
+@media (min-width: 1600px) {
+
+    .Main h1 {
+        top: 80px;
+        transform: scale(1.4);
+    }
+    .Content {
+        margin-top: 200px;
+        transform: scale(1.4);
+    } 
 }

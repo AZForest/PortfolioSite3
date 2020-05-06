@@ -18,3 +18,13 @@
         /*border-bottom: 1px solid #b3eda5;*/
         color: black;
 }
+
+@media (min-width: 1600px) {
+    .NavigationItem {
+        height: 56px;
+    }
+
+    .NavigationItem a {
+        padding: 16px 24px;
+    }
+}

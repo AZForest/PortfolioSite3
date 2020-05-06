@@ -1,7 +1,8 @@
 import React from 'react';
 import classes from './Ecommerce.module.css';
-import image from '../../../assets/images/winter2.jpg';
+import image from '../../../assets/images/ecommerce2.JPG';
 import Modal from '../../../Components/UI/Modal/Modal';
+import ecommerceDemo from '../../../assets/videos/Store4.mp4';
 
 class Ecommerce extends React.Component {
     state = {
@@ -16,7 +17,7 @@ class Ecommerce extends React.Component {
     render() {
         let modal;
         if (this.state.modalOpen) {
-            modal = <Modal name="E-Commerce Site" desc="C#, ASP.Net MVC, HTML/CSS, Bootstrap, SQL" click={this.toggleModalHandler.bind(this)}/>
+            modal = <Modal name="E-Commerce Site" desc="C#, ASP.Net MVC, HTML/CSS, Bootstrap, SQL" click={this.toggleModalHandler.bind(this)} demo={ecommerceDemo}/>
         } else {
             modal = "";
         }

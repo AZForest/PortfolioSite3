@@ -11,7 +11,7 @@
     height: 600px;
     width: 475px;
     position: relative;
-    top: 10%;
+    top: 5%;
     margin: auto;
     text-align: center;
     animation: body .75s ease-in;
@@ -78,6 +78,23 @@
 .ResumeContainer img {
     width: 100%;
     height: 100%;
+}
+
+@media (min-width: 1600px) {
+    .Content {
+        height: 840px;
+        width: 665px;
+        top: 7.5%;
+    }
+    .Content h1 {
+        font-size: 28px;
+        padding-top: 25px;
+    }
+    .Content a {
+        font-size: 17px;
+        padding: 7px 14px;
+        top: 30px;
+    }
 }
 
 

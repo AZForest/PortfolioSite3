@@ -53,3 +53,21 @@
     justify-content: space-around;
     margin-top: 40px;
 }
+
+@media (min-width: 1600px) {
+    .Content {
+        width: 1400px;
+        height: 325px;
+    }
+    .Content h1 {
+        font-size: 275%;
+        margin: 10px 0 30px 20px;
+    }
+    .Content2 {
+        font-size: 145%;
+        margin-top: 30px;
+    }
+    .ContactMethods {
+        margin-top: 50px;
+    }
+}

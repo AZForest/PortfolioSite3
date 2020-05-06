@@ -29,3 +29,15 @@
     transform: scale(1.2);
     color: #b3eda5;
 }
+
+@media (min-width: 1600px) {
+    .Footer {
+        /*transform: scale(1.4);*/
+        height: 35px;
+        font-size: 16px;
+    }
+
+    .Footer p {
+        margin: 7.5px 35px;
+    }
+}

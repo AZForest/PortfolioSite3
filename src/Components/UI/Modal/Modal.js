@@ -10,7 +10,7 @@ class Modal extends React.Component {
                 <div className={classes.BackDrop} onClick={this.props.click}>
                 </div>
                 <div className={classes.Modal}>
-                    <video autoPlay>
+                    <video autoPlay loop>
                         <source src={this.props.demo} alt="pic"/>
                     </video> 
                     <div>

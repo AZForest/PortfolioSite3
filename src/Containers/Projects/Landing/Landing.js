@@ -2,7 +2,7 @@ import React from 'react';
 import classes from '../Ecommerce/Ecommerce.module.css';
 import image from '../../../assets/images/LandingPage.png';
 import Modal from '../../../Components/UI/Modal/Modal';
-import wineDemo from '../../../assets/images/giphy.gif';
+import wineDemo from '../../../assets/videos/Winery2Slow.mov';
 
 class Landing extends React.Component {
     state = {

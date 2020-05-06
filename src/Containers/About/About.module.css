@@ -69,3 +69,24 @@
     padding: 0;
 }
 
+@media (min-width: 1600px) {
+    .Content {
+        width: 1400px;
+        height: 406px;
+    }
+    .Content h1 {
+        font-size: 275%;
+        margin: 30px 0 0 60px;
+    }
+    .Row {
+        top: 120px;
+    }
+    .Row .Image {
+        height: 175px;
+        width: 175px;
+    }
+    .Bio {
+        font-size: 145%;
+        margin-left: 80px;
+    }
+}

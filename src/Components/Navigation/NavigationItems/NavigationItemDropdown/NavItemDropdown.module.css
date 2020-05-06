@@ -20,3 +20,10 @@
     border: none;
 }
 
+@media (min-width: 1600px) {
+    .NavItemDropdown button {
+        font-size: 18px;
+        padding: 16px 24px;
+    }
+}
+
