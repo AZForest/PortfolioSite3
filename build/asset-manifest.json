@@ -1,32 +1,33 @@
 {
   "files": {
-    "main.css": "/PortfolioSite/static/css/main.94227763.chunk.css",
-    "main.js": "/PortfolioSite/static/js/main.6120b3e9.chunk.js",
-    "main.js.map": "/PortfolioSite/static/js/main.6120b3e9.chunk.js.map",
+    "main.css": "/PortfolioSite/static/css/main.cad6d227.chunk.css",
+    "main.js": "/PortfolioSite/static/js/main.6aa03137.chunk.js",
+    "main.js.map": "/PortfolioSite/static/js/main.6aa03137.chunk.js.map",
     "runtime-main.js": "/PortfolioSite/static/js/runtime-main.58fc7d2e.js",
     "runtime-main.js.map": "/PortfolioSite/static/js/runtime-main.58fc7d2e.js.map",
-    "static/js/2.c69092ce.chunk.js": "/PortfolioSite/static/js/2.c69092ce.chunk.js",
-    "static/js/2.c69092ce.chunk.js.map": "/PortfolioSite/static/js/2.c69092ce.chunk.js.map",
+    "static/js/2.eccdaf28.chunk.js": "/PortfolioSite/static/js/2.eccdaf28.chunk.js",
+    "static/js/2.eccdaf28.chunk.js.map": "/PortfolioSite/static/js/2.eccdaf28.chunk.js.map",
     "index.html": "/PortfolioSite/index.html",
-    "precache-manifest.6ca86d420a92ffe5181da2ef7fc9a5c6.js": "/PortfolioSite/precache-manifest.6ca86d420a92ffe5181da2ef7fc9a5c6.js",
+    "precache-manifest.d9a57a96754293805c082ab89aa1b1af.js": "/PortfolioSite/precache-manifest.d9a57a96754293805c082ab89aa1b1af.js",
     "service-worker.js": "/PortfolioSite/service-worker.js",
-    "static/css/main.94227763.chunk.css.map": "/PortfolioSite/static/css/main.94227763.chunk.css.map",
-    "static/js/2.c69092ce.chunk.js.LICENSE.txt": "/PortfolioSite/static/js/2.c69092ce.chunk.js.LICENSE.txt",
+    "static/css/main.cad6d227.chunk.css.map": "/PortfolioSite/static/css/main.cad6d227.chunk.css.map",
+    "static/js/2.eccdaf28.chunk.js.LICENSE.txt": "/PortfolioSite/static/js/2.eccdaf28.chunk.js.LICENSE.txt",
     "static/media/LandingPage.png": "/PortfolioSite/static/media/LandingPage.d6bed860.png",
+    "static/media/Store4.mp4": "/PortfolioSite/static/media/Store4.47da3de0.mp4",
     "static/media/WeatherFinder.png": "/PortfolioSite/static/media/WeatherFinder.37da48f9.png",
     "static/media/WeatherFinder.mov": "/PortfolioSite/static/media/WeatherFinder.8221a181.mov",
+    "static/media/Winery2Slow.mov": "/PortfolioSite/static/media/Winery2Slow.708b06e7.mov",
     "static/media/css.png": "/PortfolioSite/static/media/css.ab7da72a.png",
+    "static/media/ecommerce2.JPG": "/PortfolioSite/static/media/ecommerce2.79aef546.JPG",
     "static/media/Layout.module.css": "/PortfolioSite/static/media/forest4.9b130292.jpg",
-    "static/media/giphy.gif": "/PortfolioSite/static/media/giphy.60978f98.gif",
     "static/media/jslogo.png": "/PortfolioSite/static/media/jslogo.0cded3a3.png",
     "static/media/rasume.pdf": "/PortfolioSite/static/media/rasume.e44c33bd.pdf",
-    "static/media/redwoods2.jpg": "/PortfolioSite/static/media/redwoods2.56ff18c8.jpg",
-    "static/media/winter2.jpg": "/PortfolioSite/static/media/winter2.72be2753.jpg"
+    "static/media/redwoods2.jpg": "/PortfolioSite/static/media/redwoods2.56ff18c8.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.58fc7d2e.js",
-    "static/js/2.c69092ce.chunk.js",
-    "static/css/main.94227763.chunk.css",
-    "static/js/main.6120b3e9.chunk.js"
+    "static/js/2.eccdaf28.chunk.js",
+    "static/css/main.cad6d227.chunk.css",
+    "static/js/main.6aa03137.chunk.js"
   ]
 }
