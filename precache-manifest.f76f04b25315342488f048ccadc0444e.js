@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e6775af53bc0537932c0d9d7d1d0387f",
+    "revision": "240c0b8b2e26106cdf650e04976c4c66",
     "url": "/PortfolioSite/index.html"
   },
   {
-    "revision": "eb19257da24af0a1a26a",
-    "url": "/PortfolioSite/static/css/main.cad6d227.chunk.css"
+    "revision": "9451cab8ab71580149ca",
+    "url": "/PortfolioSite/static/css/2.c6fa72f6.chunk.css"
   },
   {
-    "revision": "90e0d5c6a6125957b33c",
-    "url": "/PortfolioSite/static/js/2.eccdaf28.chunk.js"
+    "revision": "6fa84dfddca50717d1b9",
+    "url": "/PortfolioSite/static/css/main.f94e31c7.chunk.css"
+  },
+  {
+    "revision": "9451cab8ab71580149ca",
+    "url": "/PortfolioSite/static/js/2.8e7f056f.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/PortfolioSite/static/js/2.eccdaf28.chunk.js.LICENSE.txt"
+    "url": "/PortfolioSite/static/js/2.8e7f056f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "eb19257da24af0a1a26a",
-    "url": "/PortfolioSite/static/js/main.4d3cce37.chunk.js"
+    "revision": "6fa84dfddca50717d1b9",
+    "url": "/PortfolioSite/static/js/main.cc316769.chunk.js"
   },
   {
     "revision": "7ee10a8c25fae9f70208",
@@ -50,6 +54,26 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "79aef5466752ae2c63bc90b9944c3679",
     "url": "/PortfolioSite/static/media/ecommerce2.79aef546.JPG"
+  },
+  {
+    "revision": "674f50d287a8c48dc19ba404d20fe713",
+    "url": "/PortfolioSite/static/media/fontawesome-webfont.674f50d2.eot"
+  },
+  {
+    "revision": "912ec66d7572ff821749319396470bde",
+    "url": "/PortfolioSite/static/media/fontawesome-webfont.912ec66d.svg"
+  },
+  {
+    "revision": "af7ae505a9eed503f8b8e6982036873e",
+    "url": "/PortfolioSite/static/media/fontawesome-webfont.af7ae505.woff2"
+  },
+  {
+    "revision": "b06871f281fee6b241d60582ae9369b9",
+    "url": "/PortfolioSite/static/media/fontawesome-webfont.b06871f2.ttf"
+  },
+  {
+    "revision": "fee66e712a8a08eef5805a46892932ad",
+    "url": "/PortfolioSite/static/media/fontawesome-webfont.fee66e71.woff"
   },
   {
     "revision": "9b130292173888d9a9a045252bb80e35",
