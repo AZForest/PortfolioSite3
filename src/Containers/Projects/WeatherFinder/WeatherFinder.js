@@ -40,8 +40,10 @@ class WeatherFinder extends React.Component {
                             </div>
                         </div>
                         <div className={classes.Bar}></div>
-                        <p>This app allows users to find the current weather data for any city in the world, via search bar. The city typed in by the user then displays on an image of the world, converting the latitude and longitude of the city to pixels. The map also allows users to click on any of the default cities loaded on the map and randomly select any city in the world.</p>
-                        <p>This app uses vanilla JavaScript and AJAX to render the weather data, the map, and connect to the DarkSky.net API. The app also uses imported SkyCons animations to display the current weather of any city.</p>
+                        <div className={classes.Desc}>
+                            <p>This app allows users to find the current weather data for any city in the world, via search bar. The city typed in by the user then displays on an image of the world, converting the latitude and longitude of the city to pixels. The map also allows users to click on any of the default cities loaded on the map and randomly select any city in the world.</p>
+                            <p>This app uses vanilla JavaScript and AJAX to render the weather data, the map, and connect to the DarkSky.net API. The app also uses imported SkyCons animations to display the current weather of any city.</p>
+                        </div>
                         <button onClick={this.toggleModalHandler.bind(this)}>DEMO</button>
                         <a href="https://azforest.github.io/WeatherFinder">LIVE VERSION</a>
                         <a href="https://github.com/AZForest/WeatherFinder">VIEW CODE</a>

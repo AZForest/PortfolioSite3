@@ -87,6 +87,7 @@
     padding: 0 40px;
 }
 
+
 .Content button, .Content a {
     padding: 10px 15px;
     background-color: transparent;
@@ -118,4 +119,50 @@
         margin-top: 200px;
         transform: scale(1.4);
     } 
+}
+@media (max-width: 450px) {
+    .Main {
+        margin-top: -20px;
+    }
+    .Main h1 {
+        width: 100vw;
+        font-size: 26px;
+        top: 20px;
+    }
+    .Content {
+        margin-top: 20px;
+        width: 350px;
+    }
+    .TopRow {
+        padding-top: 20px;
+        flex-direction: column;
+    }
+    .TopRow img {
+        width: 250px;
+        height: 125px;
+        margin: 0 auto;
+        box-shadow: none;
+    }
+    .TopRow div {
+        font-size: 12px;
+        margin-left: 0;
+    }
+    .TopRow div ul {
+        margin: 10px auto;
+    }
+    .Bar {
+        margin: 0 auto;
+    }
+    .Content p {
+        font-size: 12px;
+    }
+    .Content .Desc {
+        margin: 10px auto 20px auto;
+        height: 120px;
+        overflow: scroll;
+    }
+    .Content button, .Content a {
+        font-size: 10px;
+        padding: 8px 13px;
+    }
 }

@@ -38,13 +38,15 @@ class Ecommerce extends React.Component {
                                     <li>ASP.NET MVC</li>
                                     <li>HTML/CSS</li>
                                     <li>Bootstrap</li>
-                                    <li>mySQL</li>
+                                    <li>SQL Server</li>
                                 </ul>
                             </div>
                         </div>
                         <div className={classes.Bar}></div>
-                        <p>This app emulates a real-world E-commerce site. Several different languages were used in the creation of this app: C# for logic and back-end work, SQL for database management, and HTML, CSS, and BootStrap for front-end presentation. This app also uses ASP.NET and the Model-View-Controller (MVC) architecture to create a full-stack application. </p>
-                        <p>The app allows users to create their own account, browse/select products from a database of over 20 items, modify their shopping cart, set up billing information, purchase orders, check completed orders, and modify their account information.</p>
+                        <div className={classes.Desc}>
+                            <p>This app emulates a real-world E-commerce site. Several different languages were used in the creation of this app: C# for logic and back-end work, SQL for database management, and HTML, CSS, and BootStrap for front-end presentation. This app also uses ASP.NET and the Model-View-Controller (MVC) architecture to create a full-stack application. </p>
+                            <p>The app allows users to create their own account, browse/select products from a database of over 20 items, modify their shopping cart, set up billing information, purchase orders, check completed orders, and modify their account information.</p>
+                        </div>
                         <button onClick={this.toggleModalHandler.bind(this)}>DEMO</button>
                         <a href="https://storewebui20200430081038.azurewebsites.net">LIVE VERSION</a>
                         <a href="https://github.com/AZForest/E-CommerceSite">VIEW CODE</a>

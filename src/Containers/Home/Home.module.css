@@ -22,12 +22,17 @@
     font-size: 40px;
     color: #b3eda5;
     text-shadow: 1px 1px 1px black;
-
 }
 
 .Home h4 {
     padding: 0;
     margin: 5px 0 0 0;
+}
+
+@media (max-width: 450px) {
+    .Home h1 {
+        font-size: 34px;
+    }
 }
 
 .overlay {
@@ -43,6 +48,12 @@
 .ProjectDiv {
     padding-top: 40px;
     color: gainsboro;
+}
+
+@media (max-width: 450px) {
+    .ProjectDiv {
+        padding-top: 30px;
+    }
 }
 
 .ProjectDiv h4 {
@@ -67,6 +78,12 @@
     font-weight: 700;
     display: flex;
     justify-content: center;
+}
+
+@media (max-width: 450px) {
+    .ProjectDiv div {
+        flex-direction: column;
+    }
 }
 
 @media (min-width: 1600px) {

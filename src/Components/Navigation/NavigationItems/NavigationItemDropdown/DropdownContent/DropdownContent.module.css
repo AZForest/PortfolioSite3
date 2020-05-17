@@ -21,3 +21,19 @@
     background-color: gainsboro;
     
 }
+
+@media (max-width: 450px) {
+    .DropdownContent {
+        background-color: gainsboro;
+        width: 100vw;
+        justify-content: space-between;
+    }
+    .DropdownContent a {
+        padding: 11px 25px;
+        color: black;
+    }
+    .DropdownContent a:hover {
+        color: black;
+        background-color: #b3eda5;
+    }
+}

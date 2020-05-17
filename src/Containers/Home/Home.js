@@ -9,17 +9,17 @@ import weatherPic from '../../assets/images/jslogo.png';
 class Home extends React.Component {
 
     ecommerceClickHandler = () => {
-        this.props.history.push('/ecommerce');
+        this.props.history.push('/PortfolioSite/ecommerce');
     }
     wineryClickHandler = () => {
-        this.props.history.push('/winerylandingpage');
+        this.props.history.push('/PortfolioSite/winerylandingpage');
     }
     weatherClickHandler = () => {
         //console.log(this.props);
-        this.props.history.push('/weatherfinder');
+        this.props.history.push('/PortfolioSite/weatherfinder');
     }
     resumeClickHandler = () => {
-        this.props.history.push('/resume');
+        this.props.history.push('PortfolioSite/resume');
     }
     
     render() {

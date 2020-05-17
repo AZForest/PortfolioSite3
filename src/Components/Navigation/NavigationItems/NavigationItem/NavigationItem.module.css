@@ -28,3 +28,14 @@
         padding: 16px 24px;
     }
 }
+
+@media (max-width: 450px) {
+    .NavigationItem a {
+        width: 100vw;
+    }
+    .NavigationItem a:hover,
+    .NavigationItem a:active,
+    .NavigationItem a.active {
+        width: 100vw;
+    }
+}

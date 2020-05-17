@@ -27,3 +27,15 @@
     }
 }
 
+@media (max-width: 450px) {
+    .NavItemDropdown button {
+        width: 100vw;
+        padding-right: 300px; 
+    }
+
+    .NavItemDropdown button:hover,
+    .NavItemDropdown button:active {
+        width: 100vw;
+    }
+}
+

@@ -17,13 +17,13 @@ class App extends React.Component {
         <div>
           <Layout>
               <Switch>
-                <Route path="/about" component={About}/>
-                <Route path="/contact" component={Contact}/>
-                <Route path="/resume" component={Resume}/>
-                <Route path="/" exact component={Home} />
-                <Route path="/ecommerce" component={Ecommerce}/>
-                <Route path="/winerylandingpage" component={Landing}/>
-                <Route path="/weatherfinder" component={WeatherFinder}/>
+                <Route path="/PortfolioSite/about" component={About}/>
+                <Route path="/PortfolioSite/contact" component={Contact}/>
+                <Route path="/PortfolioSite/resume" component={Resume}/>
+                <Route path="/PortfolioSite" exact component={Home} />
+                <Route path="/PortfolioSite/ecommerce" component={Ecommerce}/>
+                <Route path="/PortfolioSite/winerylandingpage" component={Landing}/>
+                <Route path="/PortfolioSite/weatherfinder" component={WeatherFinder}/>
               </Switch>
           </Layout>
         </div>

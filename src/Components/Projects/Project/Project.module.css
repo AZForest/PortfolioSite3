@@ -23,6 +23,8 @@
     opacity: 0.7;
 }
 
+
+
 .Project h3 {
     margin: 0;
     padding: 0;
@@ -50,4 +52,23 @@
 
 .Project ul li {
     padding: 5px;
+}
+
+@media (max-width: 450px) {
+    .Project {
+        height: 130px;
+        width: 250px;
+        padding: 0;
+        margin: 5px auto; 
+        align-content: center;
+        
+    }
+    .Project img {
+        height: 50px;
+        width: 50px;
+        margin: 0px auto;
+    }
+    .Project p {
+        font-size: 14px;
+    }
 }
