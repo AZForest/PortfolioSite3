@@ -17,8 +17,8 @@ class Modal extends React.Component {
                         <p className={classes.X} onClick={this.props.click}>x</p>
                         <h2>{this.props.name}</h2>
                         <p>{this.props.desc}</p>
-                        <a href={this.props.livelink}>LIVE VERSION</a>
-                        <a href={this.props.codelink}>VIEW CODE</a>
+                        <a href={this.props.livelink} target="_blank" rel="noopener noreferrer">LIVE VERSION</a>
+                        <a href={this.props.codelink} target="_blank" rel="noopener noreferrer">VIEW CODE</a>
                     </div>
                 </div>
             </React.Fragment>

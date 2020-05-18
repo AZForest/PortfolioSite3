@@ -13,7 +13,7 @@ class Contact extends React.Component {
                         <div className={classes.ContactMethods}>
                             <p>Email: azforest44@gmail.com</p>
                             <p>Phone: (916) 412-1799</p>
-                            <p>LinkedIn</p>
+                            
                         </div>
                     </div>
                 </div>

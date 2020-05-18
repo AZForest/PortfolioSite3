@@ -45,8 +45,8 @@ class WeatherFinder extends React.Component {
                             <p>This app uses vanilla JavaScript and AJAX to render the weather data, the map, and connect to the DarkSky.net API. The app also uses imported SkyCons animations to display the current weather of any city.</p>
                         </div>
                         <button onClick={this.toggleModalHandler.bind(this)}>DEMO</button>
-                        <a href="https://azforest.github.io/WeatherFinder">LIVE VERSION</a>
-                        <a href="https://github.com/AZForest/WeatherFinder">VIEW CODE</a>
+                        <a href="https://azforest.github.io/WeatherFinder" target="_blank" rel="noopener noreferrer">LIVE VERSION</a>
+                        <a href="https://github.com/AZForest/WeatherFinder" target="_blank" rel="noopener noreferrer">VIEW CODE</a>
                     </div>
                     
                 </div>

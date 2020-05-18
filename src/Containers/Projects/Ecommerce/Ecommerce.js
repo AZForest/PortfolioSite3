@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './Ecommerce.module.css';
-import image from '../../../assets/images/ecommerce2.JPG';
+import image from '../../../assets/images/ecommerce3.JPG';
 import Modal from '../../../Components/UI/Modal/Modal';
 import ecommerceDemo from '../../../assets/videos/Store4.mp4';
 
@@ -48,8 +48,8 @@ class Ecommerce extends React.Component {
                             <p>The app allows users to create their own account, browse/select products from a database of over 20 items, modify their shopping cart, set up billing information, purchase orders, check completed orders, and modify their account information.</p>
                         </div>
                         <button onClick={this.toggleModalHandler.bind(this)}>DEMO</button>
-                        <a href="https://storewebui20200430081038.azurewebsites.net">LIVE VERSION</a>
-                        <a href="https://github.com/AZForest/E-CommerceSite">VIEW CODE</a>
+                        <a href="https://storewebui20200430081038.azurewebsites.net" target="_blank" rel="noopener noreferrer">LIVE VERSION</a>
+                        <a href="https://github.com/AZForest/E-CommerceSite" target="_blank" rel="noopener noreferrer">VIEW CODE</a>
                     </div>
                     
                 </div>

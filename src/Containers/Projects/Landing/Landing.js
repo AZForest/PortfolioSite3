@@ -42,11 +42,11 @@ class Landing extends React.Component {
                         </div>
                         <div className={classes.Bar}></div>
                         <div className={classes.Desc}>
-                        <p>This app renders a non-interactive business landing page, focusing on front-end styling. For this app I created a fictional winery to accomplish this. This app displays all necessary business information needed for consumers, such as location info, prices, information about the company, event information, and other miscellaneous pertinent information. In addition to being an informative source for consumers, the page is designed to create an aschetically pleasing and intriguing experience for visiters to the site. Skills used in this site were HTML, CSS grids, flexbox, media queries, etc.</p>
+                        <p>This app renders a non-interactive business landing page, focusing on front-end styling. For this app I created a fictional winery to accomplish this. This app displays all necessary business information needed for consumers, such as location info, prices, information about the company, event information, and other miscellaneous pertinent information. In addition to being an informative source for consumers, the page is designed to create an aesthetically pleasing and intriguing experience for visitors to the site. Skills used in this site were HTML, CSS grids, flexbox, media queries, etc.</p>
                         </div>
                         <button onClick={this.toggleModalHandler.bind(this)}>DEMO</button>
-                        <a href="https://azforest.github.io/WineryLandingPage/">LIVE VERSION</a>
-                        <a href="https://github.com/AZForest/WineryLandingPage">VIEW CODE</a>
+                        <a href="https://azforest.github.io/WineryLandingPage/" target="_blank" rel="noopener noreferrer">LIVE VERSION</a>
+                        <a href="https://github.com/AZForest/WineryLandingPage" target="_blank" rel="noopener noreferrer">VIEW CODE</a>
                     </div>
                 </div>
             </React.Fragment>

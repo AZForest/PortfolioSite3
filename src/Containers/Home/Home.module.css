@@ -30,8 +30,16 @@
 }
 
 @media (max-width: 450px) {
+    .Home {
+        height: 105vh;
+    }
     .Home h1 {
         font-size: 34px;
+    }
+}
+@media (max-width: 350px) {
+    .Home {
+        height: 120vh;
     }
 }
 
